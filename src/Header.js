@@ -4,7 +4,7 @@ import './css/theshopstyle.css';
 
 function Header() {
   return (
-    <div className="head">
+    <div className="head head-header">
         <div className="">
           <img src={logo} className="logo-img" alt="logo" />
         </div>
