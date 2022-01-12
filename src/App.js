@@ -46,7 +46,7 @@ class App extends Component {
             <Route exact path="/storelaunch" component={Storelaunch} />
             <Route exact path="/events" component={Events} />
         </Switch>
-    <>
+    </>
     );
   }
 }
