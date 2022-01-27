@@ -438,11 +438,68 @@ h3.temp-title
   .header-nav li {
     float:none; 
   }
-  .nav{
-    max-width: 200px;
-    width: 200px;
+.navBar{
+
+}
+.hamburger-dask
+{
+  display: none;
+} 
+@media (max-width: 992px) {
+  .navBar{
+    display: none;
   }
-.nav > a
+  .mobNavBar
+  {
+    display: flex;
+    z-index: 99;
+    position: absolute;
+    width: 60%;
+  }
+  .mobNavBar .nav 
+  {
+    flex-direction: column;
+  }
+  .mobNavBar .sub-nav-1
+  {
+    display: block;
+    position: inherit;
+    padding-left: 15px;
+  }
+  .mobNavBar a
+  {
+    text-align: left;
+  }
+
+
+
+  .header-logo {
+      flex-direction: row;
+      justify-content: flex-start
+  }
+  .header-logo-mob{
+    z-index: 1;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+  }
+  .hamburger-mob
+  {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 2;
+    margin-right: -10%;
+    width: 10%;
+  }
+  .hamburger-mob img 
+  {
+    height: 20px;
+  }
+}
+
+.navBar .nav > a
 {
   text-transform: uppercase;
 }

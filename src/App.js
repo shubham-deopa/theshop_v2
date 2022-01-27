@@ -42,7 +42,7 @@ class App extends Component {
             <Route exact path="/offerpromo" component={Offerpromo} />
             <Route exact path="/collections" component={Collections} />
             <Route exact path="/shop" component={Shop} />
-            <Route exact path="/shopDetails" component={ShopDetails} />
+            <Route exact path="/shopdetails" component={ShopDetails} />
             <Route exact path="/storelaunch" component={Storelaunch} />
             <Route exact path="/events" component={Events} />
         </Switch>

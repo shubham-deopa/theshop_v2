@@ -37,7 +37,7 @@ function Shop() {
 
             <div className="shops-list row row-cols-lg-3 row-cols-md-2 row-cols-1 ">
                 <div className="col col-padding">
-                    <a href="">
+                    <a href="/shopdetails">
                         <div className="card text-white">
                             <img src={require('./img/shops/adidas-performance.jpg')} className="shops-img" alt="" />
                             <div className="shops-img-overlay">
@@ -46,7 +46,7 @@ function Shop() {
                     </a>
                 </div>
                 <div className="col col-padding">
-                    <a href="">
+                    <a href="/shopdetails">
                         <div className="card text-white">
                             <img src={require('./img/shops/aldo.jpg')} className="shops-img" alt="" />
                             <div className="shops-img-overlay">
@@ -55,7 +55,7 @@ function Shop() {
                     </a>
                 </div>
                 <div className="col col-padding">
-                    <a href="">
+                    <a href="/shopdetails">
                         <div className="card text-white">
                             <img src={require('./img/shops/allen-solly.jpg')} className="shops-img" alt="" />
                             <div className="shops-img-overlay">

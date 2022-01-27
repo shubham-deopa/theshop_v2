@@ -750,9 +750,9 @@ function Home() {
             </div>
         </section>
 
+<Footer/>
 
-
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <img src={require('./logo.svg').default} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -764,11 +764,11 @@ function Home() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
 
 {/* 
 <Header/>
-<Footer/>
+
 
 <Aboutus/>
 <Contactus/>
